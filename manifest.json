@@ -1,0 +1,21 @@
+{
+  "short_name": "Ruta Verde",
+  "name": "Ruta Verde",
+  "icons": [
+  {
+      "src": "img/favicon.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+	 {
+      "src": "img/favicon - 2.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "http://127.0.0.1:5500/index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#a1d9fc",
+  "theme_color": "#a1d9fc"
+}

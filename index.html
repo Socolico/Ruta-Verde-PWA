@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ruta Verde es una empresa dedicada a realizar actividades outdoor para empresas, familias y amantes de la naturaleza, conócenos y atrevete a vivir la experiencia con nosotros.">
+  <title>Ruta Verde - Adventure Outdoor</title>
+  <!-- -- -- -- Google Fonts -- -- -- -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Montserrat:ital,wght@0,700;1,400&display=swap" rel="stylesheet"> 
+  <!-- -- -- -- BoxIcons CSS -- -- -- -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <!-- -- -- -- Splide CSS -- -- -- -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+  <!-- -- -- -- Normalize CSS -- -- -- -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- -- -- -- Mi CSS -- -- -- -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- -- -- -- ScrollReveal JS -- -- -- -->
+  <script src="vendor/scrollreveal.js"></script>
+  <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a class="navbar__link" href="index.html">Inicio</a>
+      <a class="navbar__link" href="nosotros.html">Nosotros</a>
+      <div class="navbar__logo"><img src="img/Logo.png" alt="Ruta Verde Logo"></div>
+      <div class="dropdown">
+        <p class="navbar__link dropdown__link">Servicios<i class='bx bxs-down-arrow'></i></p>
+        <div class="dropdown__menu">
+          <a class="navbar__link" href="trekking.html">Trekking</a>
+          <a class="navbar__link" href="caminatas.html">Caminatas</a>
+          <a class="navbar__link" href="teambuilding.html">Teambuilding</a>
+          <a class="navbar__link" href="fogatas.html">Fogatas</a>
+        </div>
+      </div>
+      <a class="navbar__link" href="contacto.html">Contacto</a>
+      <div class="burger">
+        <div class="burger__lineas">
+          <div class="burger__linea burger__linea1"></div>
+          <div class="burger__linea burger__linea2"></div>
+          <div class="burger__linea"></div>
+        </div>        
+        <div class="burger__menu">
+          <a class="burger__link" href="index.html">Inicio</a>
+          <a class="burger__link" href="nosotros.html">Nosotros</a>
+          <a class="burger__link" href="trekking.html">Trekking</a>
+          <a class="burger__link" href="caminatas.html">Caminatas</a>
+          <a class="burger__link" href="teambuilding.html">Teambuilding</a>
+          <a class="burger__link" href="fogatas.html">Fogatas</a>
+          <a class="burger__link" href="contacto.html">Contacto</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="bloque-relleno"></div>
+
+  <main>
+    <section class="banner" id="banner-inicio">
+      <h1 class="h1 load-hidden">Ruta Verde</h1>
+      <p class="load-hidden">Experiencia Outdoor en Olmué</p>
+      <img src="img/cerro.svg" class="banner__cerro">
+    </section>
+
+    <section class="container" id="reseña">
+      <h2 class="h2 load-hidden">Un poco sobre nosotros</h2>
+      <p class="load-hidden">Somos una empresa con más de <span class="texto-acento">17 años de experiencia</span> en la creación y generación de <span class="texto-acento">actividades outdoor</span>, mediante la realización de labores que fomentan el desarrollo y <span class="texto-acento">fortalecimiento de los climas laborales</span>, reforzamiento de grupos de trabajo, promueven el liderazgo y comunicación de quienes participan en nuestras actividades, a través de experiencias y dinámicas enfocadas en <span class="texto-acento">entornos naturales.</span></p>
+    </section>
+
+    <section class="container" id="servicios">
+      <h2 class="h2">Nuestros servicios</h2>
+      <div class="splide" id="servicios__cards">
+        <div class="splide__track card-padding">
+          <ul class="splide__list">
+            <li class="splide__slide card-servicio">
+              <div class="splide__slide__container"><img src="img/excursión (3).JPG"></div>              
+              <div class="card-servicio__texto"><a class="card-servicio__link" href="trekking.html">Trekking</a></div>
+            </li>
+            <li class="splide__slide card-servicio">
+              <div class="splide__slide__container"><img src="img/caminata familiar (3).JPG"></div>
+              <div class="card-servicio__texto"><a class="card-servicio__link" href="caminatas.html">Caminatas</a></div>
+            </li>
+            <li class="splide__slide card-servicio">
+              <div class="splide__slide__container"><img src="img/trabajo en equipo (1).JPG"></div>
+              <div class="card-servicio__texto"><a class="card-servicio__link" href="teambuilding.html">TeamBuilding</a></div>
+            </li>
+            <li class="splide__slide card-servicio">
+              <div class="splide__slide__container"><img src="img/fogata (1).JPG"></div>
+              <div class="card-servicio__texto"><a class="card-servicio__link" href="fogatas.html">Fogatas</a></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="testimonial">
+      <h2 class="h2">Qué dicen nuestros clientes</h2>
+      <div class="splide" id="testimonial__cards">
+        <div class="splide__track card-padding">
+          <ul class="splide__list">
+            <div class="splide__slide card-testimonial">
+              <div class="card-testimonial__relato">
+                <p>"Ruta Verde ofrece un servicio excelente, yo vine con mi familia y lo pasamos genial. Definitivamente vendría de nuevo."</p>
+              </div>
+              <div class="card-testimonial__cliente">
+                <div class="card-testimonial__cliente-img"><img src="img/testimonial1"></div>
+                <div class="card-testimonial__cliente-nombre"><p>Enrique Fernández</p></div>                
+              </div>
+            </div>
+            <div class="splide__slide card-testimonial">
+              <div class="card-testimonial__relato">
+                <p>"Cuando vine a vacacionar a Chile con unos amigos una azafata del aeropuerto me recomendó esta empresa, somos amantes del trekking y nos encantaron las actividades que se hacen."</p>
+              </div>
+              <div class="card-testimonial__cliente">
+                <div class="card-testimonial__cliente-img"><img src="img/testimonial2.jpg"></div>
+                <div class="card-testimonial__cliente-nombre"><p>Jaquanda Janes</p></div>                
+              </div>
+            </div>
+            <div class="splide__slide card-testimonial">
+              <div class="card-testimonial__relato">
+                <p>"Trabajo para una compañía en la cual en un comienzo no teniamos buena relación entre los trabajadores, por lo que nuestro jefe nos trajo aquí para realizar las actividades de Teambuilding, ahora nos entendemos muy bien entre todos."</p>
+              </div>
+              <div class="card-testimonial__cliente">
+                <div class="card-testimonial__cliente-img"><img src="img/testimonial3.jpg"></div>
+                <div class="card-testimonial__cliente-nombre"><p>Marcela Rojas</p></div>                
+              </div>
+            </div>
+            <div class="splide__slide card-testimonial">
+              <div class="card-testimonial__relato">
+                <p>"Soy el dueño de una cafetería en Olmué y estuve mucho tiempo sin tomarme unas vacaciones, pasé por Rosa Agustina para consultar y me comentaron de este servicio, vine con mi familia y quedamos encantados, definitivamente volveremos."</p>
+              </div>
+              <div class="card-testimonial__cliente">
+                <div class="card-testimonial__cliente-img"><img src="img/testimonial4.jpg"></div>
+                <div class="card-testimonial__cliente-nombre"><p>Pedro Ramírez</p></div>                
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta">
+      <h2>Vive una experiencia <span class="texto-acento">inolvidable</span><br> No esperes mas y <span class="texto-acento">contactanos</span></h2>
+      <p>Escríbenos para saber de ti y que puedas pasar un buen rato con nosotros</p>
+      <a class="btn" href="contacto.html">Contacto</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer__trees"><img src="img/bosque.svg"></div>
+    <div class="footer__contenido">
+      <div class="splide slider-footer">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide"><img src="img/corona-logo.svg" alt="Corona Logo"></li>
+            <li class="splide__slide"><img src="img/Jeep_logo.svg" alt="Jeep Logo"></li>
+            <li class="splide__slide"><img src="img/MetLife_logo.svg" alt="MetLife Logo"></li>
+            <li class="splide__slide"><img src="img/the-north-face-1.svg" alt="The North Face Logo"></li>
+            <li class="splide__slide"><img src="img/Bci_Logo.svg" alt="Bci Logo"></li>
+            <li class="splide__slide"><img src="img/Columbia_logo.svg" alt="Columbia Logo"></li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="footer__info">
+        <div>
+          <h2>Datos de contacto</h2>
+          <ul>
+            <li><i class='bx bxs-envelope'></i> Email: naturaleza@rutaverde.cl</li>
+            <li><i class='bx bxs-phone'></i> Teléfono: 9-91686165</li>
+            <li><i class='bx bxs-map'></i> Ubicación: Calle El Bajo 6000, Olmué, Valparaíso</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Medio de pago</h2>
+          <img src="img/pagos.png" alt="Medios de Pago">
+        </div>
+      </div>
+  
+      <div class="footer__copy">
+        <h3>&copy; Ruta Verde - Adventure Outdoor</h3>
+      </div>
+    </div>    
+  </footer>
+
+  <!-- -- -- -- Splide JS -- -- -- -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+  <!-- -- -- -- Mi JS -- -- -- -->
+  <script src="js/index.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('worker.js?'+Math.random()+'')
+      });
+    }
+    </script>
+</body>
+</html>
